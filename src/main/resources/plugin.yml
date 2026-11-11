@@ -1,0 +1,12 @@
+name: Rewards
+version: 1.0
+main: dev.dani.rewards.Rewards
+api-version: "26.2"
+commands:
+  rewards:
+    description: Open the rewards menu
+permissions:
+  rewards.use:
+    default: true
+  rewards.admin:
+    default: op
