@@ -1,0 +1,48 @@
+prefix: "&8[&bRewards&8] "
+menu-title: "&b&lRewards"
+categories:
+  kits:
+    name: "&b&lKits"
+    icon: CHEST
+    rewards:
+      starter:
+        name: "&aStarter Kit"
+        icon: IRON_SWORD
+        cooldown: 7200
+        permission: ""
+        commands:
+          - "give %player% bread 8"
+        items: []
+      vip:
+        name: "&6&lVIP Kit"
+        icon: GOLDEN_APPLE
+        cooldown: 86400
+        permission: "rewards.vip"
+        commands: []
+        items: []
+      mvp:
+        name: "&d&lMVP Kit"
+        icon: DIAMOND_CHESTPLATE
+        cooldown: 86400
+        permission: "rewards.mvp"
+        commands: []
+        items: []
+      media:
+        name: "&c&lMedia Kit"
+        icon: ENDER_CHEST
+        cooldown: 86400
+        permission: "rewards.media"
+        commands: []
+        items: []
+  keys:
+    name: "&e&lKeys"
+    icon: TRIPWIRE_HOOK
+    rewards:
+      common-key:
+        name: "&fCommon Key"
+        icon: TRIPWIRE_HOOK
+        cooldown: 3600
+        permission: ""
+        commands:
+          - "tell %player% Replace this with your crate key command in /rewards settings"
+        items: []
